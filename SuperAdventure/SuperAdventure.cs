@@ -21,7 +21,7 @@ namespace SuperAdventure
             InitializeComponent();
 
             
-            Location location = new Location(1, "Home", "This is your house.");
+          //  Location location = new Location(1, "Home", "This is your house.");
 
             _player = new Player(10, 10, 20, 0, 1);
             
@@ -43,6 +43,26 @@ namespace SuperAdventure
         }
 
         private void SuperAdventure_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNorth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSouth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUseWeapon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUsePotion_Click(object sender, EventArgs e)
         {
 
         }
